@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Entre em Contato</title>
-</head>
-<body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
 
-  <h1>Entre em Contato</h1>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-  <form id="form">
-    <input type="text" placeholder="Seu nome" id="nome"><br><br>
-    <input type="email" placeholder="Seu email" id="email"><br><br>
-    <textarea placeholder="Sua mensagem" id="mensagem"></textarea><br><br>
-    <button type="submit">Enviar</button>
-  </form>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/perfil.png" alt="Logo do BZR" />
 
-  <p id="resposta"></p>
+        <a href="https://www.instagram.com/bzrsystems/" target="_blank">
+          <p>@bzrsystems</p>
+        </a>
+      </div>
 
-  <script src="./script.js"></script>
-</body>
+      <ul>
+        <li>
+          <a href="https://wa.me/5588988668735" target="_blank">
+            Converse pelo WhatsApp
+          </a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://wa.me/5588988668735" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito por
+        <a href="https://www.instagram.com/gustavot_orres/">
+          @Gustavot_orres
+        </a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
